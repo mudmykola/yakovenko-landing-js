@@ -1,0 +1,33 @@
+.diseases{
+  margin-top: 58px;
+  &-box{
+    h2{
+      font-size: 30px;
+    }
+
+  }
+  &-list{
+    margin-top: 50px;
+    ul{
+      display: flex;
+    flex-wrap: wrap;
+      gap: 32px;
+      li{
+        cursor: pointer;
+        font-size: 25px;
+        color: #fff;
+        border: 1px solid #ffff;
+        border-radius: 5px;
+        width: max-content;
+        padding: 15px;
+        transition: all .3s ease;
+        &:hover{
+          border-color: #C98660;
+          color: #C98660;
+          transition: all .5s ease;
+        }
+      }
+    }
+
+  }
+}
