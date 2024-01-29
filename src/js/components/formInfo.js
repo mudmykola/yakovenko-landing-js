@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function (){
             const formElement = document.getElementById('form');
 
             if(formElement){
-                formElement.style.display = 'block';
+                formElement.style.display = 'flex';
             }
         })
 

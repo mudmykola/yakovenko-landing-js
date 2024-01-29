@@ -11,6 +11,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const phoneBlock = createFormBlock('Номер телефону', 'phone', 'tel');
         const emailBlock = createFormBlock('Електронна пошта', 'email', 'email');
 
+        formId.style.position = 'fixed';
+        formId.style.top = '30%';
+        formId.style.zIndex = '999999';
+
         formId.appendChild(nameBlock);
         formId.appendChild(surnameBlock);
         formId.appendChild(phoneBlock);
