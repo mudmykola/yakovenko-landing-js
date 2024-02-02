@@ -6,3 +6,4 @@ import advantage from "./components/advantageList";
 import diseases from "./components/diseases";
 import formInfo from  "./components/formInfo";
 import  formBlock from  "./components/formBlock";
+import  reasons from  "./components/reasons";
