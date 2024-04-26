@@ -51,15 +51,28 @@ $default: #fff;
 
 //btn
 %send-btn {
-  border: 1px solid $c100;
-  padding: 17px 30px;
-  border-radius: 6px;
   cursor: pointer;
-
+  border: none;
+  background: #121010;
+  color: #fff;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 35px;
+  line-height: 35px;
+  width: max-content;
+  height: 73px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
   a {
-    font-weight: var(--font-b);
+    text-align: center;
+  }
+  &:hover {
+    background: #ff0001;
+    transition: all 0.5s ease;
   }
 }
+
 %global-btn {
   background: $c200;
   font-size: 14px;
@@ -79,7 +92,7 @@ $default: #fff;
 
 //hover
 
-%color-eff{
-  background: #64B531;
+%color-eff {
+  background: #64b531;
   transition: var(--h-tr);
 }
