@@ -1,3 +1,36 @@
 .history-inner {
   margin-top: 125px;
+
+  &__box {
+    h2 {
+      width: 70%;
+      line-height: 26px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__left--content {
+      width: 50%;
+
+      ul {
+        display: inline-grid;
+        gap: 20px;
+      }
+    }
+  }
+
+  &__right--content {
+    ul {
+      display: flex;
+
+      li {
+        text-align: center;
+      }
+    }
+  }
 }
