@@ -8,3 +8,4 @@ import formInfo from "./components/formInfo";
 import formBlock from "./components/formBlock";
 import reasons from "./components/reasons";
 import history from "./components/history";
+import therapy from "./components/therapy";

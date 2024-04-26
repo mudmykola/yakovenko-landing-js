@@ -1,0 +1,49 @@
+.therapy-inner {
+  margin: 101px 0 126px;
+  &__title {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 400;
+  }
+  &__content {
+    margin-top: 58px;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li:nth-child(1) {
+        background-color: #64b531;
+      }
+      li:nth-child(2) {
+        position: relative;
+        background-color: #c98660;
+        :after {
+          position: absolute;
+          content: "";
+          top: 5%;
+          right: -35%;
+          width: 500px;
+          height: 400px;
+          display: flex;
+          background-image: url("../img/therapy-el.png");
+          background-repeat: no-repeat;
+          -webkit-background-size: contain;
+          background-size: contain;
+          background-position: center center;
+          z-index: -1;
+        }
+      }
+      li {
+        border-radius: 21px;
+        width: 48%;
+        padding: 50px 33px;
+        display: flex;
+        align-items: center;
+
+        p {
+          font-size: 25px;
+          line-height: 27px;
+        }
+      }
+    }
+  }
+}

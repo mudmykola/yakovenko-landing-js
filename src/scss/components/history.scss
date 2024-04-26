@@ -13,17 +13,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    &__left--content {
-      width: 50%;
-
-      ul {
-        display: inline-grid;
-        gap: 20px;
-      }
+  }
+  &__left--content {
+    width: 50%;
+    ul {
+      display: inline-grid;
+      gap: 20px;
     }
   }
-
   &__right--content {
     ul {
       display: flex;

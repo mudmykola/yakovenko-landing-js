@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const historyInnerTitle = document.createElement("h2");
     historyInnerTitle.innerHTML =
-      "СФОРМУЄТЕ НОВІ НЕЙРОННІ ЗВ'ЯЗКИ,ЯКІ <span style='color: #00B200;'>АВТОМАТИЧНО БУДУТЬ РОБИТИ ВАС ЗДОРОВИМИ</span> В БУДЬ ЯКІЙ СИТУАЦІЇ";
+        "СФОРМУЄТЕ НОВІ НЕЙРОННІ ЗВ'ЯЗКИ,ЯКІ <span style='color: #00B200;'>АВТОМАТИЧНО БУДУТЬ РОБИТИ ВАС ЗДОРОВИМИ</span> В БУДЬ ЯКІЙ СИТУАЦІЇ";
 
     historyInnerBox.appendChild(historyInnerTitle);
 
