@@ -10,3 +10,4 @@ import reasons from "./components/reasons";
 import history from "./components/history";
 import therapy from "./components/therapy";
 import practice from "./components/practice";
+import stages from "./components/stages";
