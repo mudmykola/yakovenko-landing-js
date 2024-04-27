@@ -11,3 +11,5 @@ import history from "./components/history";
 import therapy from "./components/therapy";
 import practice from "./components/practice";
 import stages from "./components/stages";
+import person from "./components/person";
+import container from "./components/container";
