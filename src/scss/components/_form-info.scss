@@ -1,26 +1,32 @@
-.form{
-  &-left__content{
+.form {
+  &-left__content {
     width: 630px;
   }
-  &-info{
+
+  &-info {
     position: relative;
-    &__box{
+
+    &__box {
       margin-top: 83px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      h2{
+
+      h2 {
         font-size: 45px;
         margin-bottom: 50px;
       }
-      p{
+
+      p {
         font-size: 20px;
         line-height: 20px;
       }
     }
-    &__btn{
+
+    &__btn {
       margin-top: 50px;
-      button{
+
+      button {
         cursor: pointer;
         border: none;
         background: #121010;
@@ -30,22 +36,22 @@
         font-size: 35px;
         width: max-content;
         height: 73px;
-        transition: all .3s ease;
-        &:hover{
+        transition: all 0.3s ease;
+
+        &:hover {
           background: #ff0001;
-          transition: all .5s ease;
+          transition: all 0.5s ease;
         }
       }
     }
   }
-
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   padding: 20px;
   flex-direction: column;
-background: #bcbcbc;
+  background: #bcbcbc;
   border-radius: 15px;
   width: 400px;
   height: 400px;
@@ -53,14 +59,14 @@ background: #bcbcbc;
   top: -50%;
   left: 35%;
   right: 0;
-  transition: all .5s ease;
-  input{
+  transition: all 0.5s ease;
+  input {
     outline: none;
     border-radius: 5px;
     border: none;
     padding: 10px;
   }
-  button{
+  button {
     cursor: pointer;
     border: none;
     background: #121010;
@@ -68,13 +74,14 @@ background: #bcbcbc;
     border-radius: 5px;
     padding: 10px;
     margin-top: 5px;
-    transition: all .3s ease;
-    &:hover{
+    transition: all 0.3s ease;
+
+    &:hover {
       background: #ff0001;
-      transition: all .5s ease;
+      transition: all 0.5s ease;
     }
   }
-  span{
+  span {
     cursor: pointer;
     position: absolute;
     top: 5%;
@@ -84,6 +91,6 @@ background: #bcbcbc;
   }
 }
 
-#form{
+#form {
   display: none;
 }

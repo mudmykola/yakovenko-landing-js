@@ -1,18 +1,17 @@
-.diseases{
+.diseases {
   margin-top: 58px;
-  &-box{
-    h2{
+  &-box {
+    h2 {
       font-size: 30px;
     }
-
   }
-  &-list{
+  &-list {
     margin-top: 50px;
-    ul{
+    ul {
       display: flex;
-    flex-wrap: wrap;
+      flex-wrap: wrap;
       gap: 32px;
-      li{
+      li {
         cursor: pointer;
         font-size: 25px;
         color: #fff;
@@ -20,14 +19,13 @@
         border-radius: 5px;
         width: max-content;
         padding: 15px;
-        transition: all .3s ease;
-        &:hover{
-          border-color: #C98660;
-          color: #C98660;
-          transition: all .5s ease;
+        transition: all 0.3s ease;
+        &:hover {
+          border-color: #c98660;
+          color: #c98660;
+          transition: all 0.5s ease;
         }
       }
     }
-
   }
 }
