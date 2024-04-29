@@ -13,3 +13,4 @@ import practice from "./components/practice";
 import stages from "./components/stages";
 import person from "./components/person";
 import container from "./components/container";
+import footer from "./components/footer";
